@@ -1,0 +1,27 @@
+# ---- Data: never commit hackathon data (it may not leave the event) ----
+# Everything inside data/ is ignored except the placeholders below.
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Belt and braces: raw/processed data files anywhere in the repo
+*.csv
+*.parquet
+*.parquet.tmp
+*.zip
+*.feather
+*.pkl
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---- OS / editors ----
+.DS_Store
+.vscode/
+.idea/
